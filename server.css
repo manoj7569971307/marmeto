@@ -1,0 +1,65 @@
+button {
+    background-color: blue;
+    color: white;
+    width: 30%;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+hr{
+    margin-bottom: 20px;
+}
+.nun{
+    display: none;
+}
+.product-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+     text-align: center;
+}
+.but {
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+}
+ .main{
+        text-align: center;
+    }
+.inP {
+    width: 50%;
+    height: 70px;
+    border-color: lightblue;
+    border-radius: 15px;
+    font-size: 30px;
+}
+@media screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .product-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .nun{
+        display: block;
+    }
+    h2{
+        font-size:60px;
+    }
+    .main{
+        text-align: center;
+    }
+    .inputBox{
+        display: block;
+    }
+    .inputBox2{
+        display: block;
+    }
+    P{
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
